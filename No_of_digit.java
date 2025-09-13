@@ -1,7 +1,5 @@
 // package Lecture_04_Function;
 import java.util.*;
-
-
 public class No_of_digit {
     public static int digit(int n){
         int count = 0;
@@ -16,4 +14,5 @@ public class No_of_digit {
         int n = sc.nextInt();
         System.out.println(digit(n));
     }    
+
 }
