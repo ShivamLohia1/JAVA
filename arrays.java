@@ -6,9 +6,9 @@ public class arrays {
             System.out.println(arr[i]);
         }
         System.out.println();
-
         for(int element : arr){
             System.out.println(element);
         }
     }
+
 }
