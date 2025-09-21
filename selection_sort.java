@@ -16,7 +16,6 @@ public class selection_sort {
             arr[i] = temp;
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {64, 25, 12, 22, 11};
         selectionSort(arr);
@@ -25,4 +24,5 @@ public class selection_sort {
             System.out.print(num + " ");
         }
     }
+
 }
