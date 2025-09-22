@@ -13,7 +13,6 @@ public class reverse {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
         System.out.println("Reversed array:");
         for (int i = n - 1; i >= 0; i--) {
             System.out.print(arr[i] + " ");
@@ -22,4 +21,5 @@ public class reverse {
 
         sc.close();
     }
+
 }
