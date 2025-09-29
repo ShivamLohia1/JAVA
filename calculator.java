@@ -9,7 +9,6 @@ public class calculator {
         float b = sc.nextFloat();
         System.out.println("Choose operation to perform");
         char ch=sc.next().charAt(0);
-
         switch(ch){
             case '+':{
                 System.out.println("Sum = "+(a+b));
@@ -31,4 +30,5 @@ public class calculator {
                 System.out.println("Enter valid operator!!!!");
         }
     }
+
 }
