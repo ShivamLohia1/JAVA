@@ -1,5 +1,4 @@
 // package Lecture_07_Searching.Linear;
-
 public class Intro {
     static int search(int[] arr,int target){
         for(int i = 0;i<arr.length;i++){
@@ -12,4 +11,5 @@ public class Intro {
         int target = 6;
         System.out.println(search(arr, target));
     }
+
 }
