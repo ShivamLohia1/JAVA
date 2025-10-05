@@ -1,7 +1,6 @@
 // package Lecture_04_Function;
 import java.util.*;
 public class Prime {
-
     public static int prime(int n){
         int isPrime = 1;
         for(int i = 2;i*i<=n;i++){
@@ -19,4 +18,5 @@ public class Prime {
 
         System.out.println(prime(n));
     }
+
 }
