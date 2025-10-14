@@ -6,10 +6,12 @@ public class Fibonacci {
         if (n == 1) return 1; 
         return fib(n-1)+fib(n-2);
     }
+    
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);    
       Fibonacci fn = new Fibonacci(); 
       int n = sc.nextInt();
       System.out.println(fn.fib(n));  
    } 
+
 }
