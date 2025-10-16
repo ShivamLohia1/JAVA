@@ -6,6 +6,7 @@ public class Intro {
         }
         return -1;
     }
+    
     public static void main(String[] args) {
         int[] arr = {10,-1,0,5,6,9};
         int target = 6;
@@ -13,3 +14,4 @@ public class Intro {
     }
 
 }
+
