@@ -16,7 +16,6 @@ class Student{
         this.name = name;
         this.cgpa = cgpa;
     }
-
     void show(){
         System.out.println("Name: "+this.name);
         System.out.println("Age: "+this.age);
@@ -33,4 +32,5 @@ public class Cons_Overloading {
         Student s2 = new Student("Lohia",8.5f);
         s2.show();
     }
+
 }
